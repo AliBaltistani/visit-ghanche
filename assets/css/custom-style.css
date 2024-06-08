@@ -25,6 +25,20 @@ h1, h2, h3, h4, h5, h6{
     background-position: 50% 50%;
    
 }
+
+.nav-item-links{
+    color: white !important;
+    font-size: small;
+    font-weight: 600;
+    margin: 10px;
+  }
+  .nav-item-links-dark{
+    color: black !important;
+    font-size: small;
+    font-weight: 600 !important;
+}
+
+
 /* .carousel-control-next{
     background: black;
     width: 50px;
