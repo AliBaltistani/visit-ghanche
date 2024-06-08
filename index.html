@@ -1,66 +1,603 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanche Tourism</title>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+  <link href="assets/css/custom-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+  <style>
+    .bg-dark{
+    background-color: #1E2E3A !important;
+    color: white !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- header -->
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">GHANCHE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-target="dropdown" aria-expanded="false">
+            ABOUT GHANCHE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/gahanche-info.html">General-Info</a></li>
+              <li><a class="dropdown-item" href="../pages/geography-of-gahanche.html">Geography of Ghanche</a></li>                
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-target="dropdown" aria-expanded="false">
+            PLAN YOUR TRIP
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/how-to-get-there.html">How to get there</a></li>
+              <li><a class="dropdown-item" href="../pages/thing-to-do.html">Thing to do</a></li>                
+              <li><a class="dropdown-item" href="../pages/accommodation.html">Accommodation</a></li>                
+              <li><a class="dropdown-item" href="../pages/gatting-around.html">Getting around</a></li>                
+              <li><a class="dropdown-item" href="../pages/gahanche-map.html">Ghanche map</a></li>                
+              <li><a class="dropdown-item" href="../pages/RTCs.html">RTCs</a></li>                
+            </ul>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-target="dropdown" aria-expanded="false">
+            BEST SPOST
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/regions-of-gahache.html">Regions of Ghanche</a></li>
+              <li><a class="dropdown-item" href="../pages/top-scenic-spots.html">Top Scenic Spots</a></li>                
+              <li><a class="dropdown-item" href="../pages/trip-suggestion.html">Trip Suggestions</a></li>                
+              <li><a class="dropdown-item" href="../pages/town-and-village.html">Towns and Villages</a></li>                
+            </ul>
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-target="dropdown" aria-expanded="false">
+              GET INSPIRED
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/natural-beauty.html">Natural Beauty</a></li>
+              <li><a class="dropdown-item" href="../pages/culture-and-history.html">Culture and History</a></li>                
+              <li><a class="dropdown-item" href="../pages/wellnes.html">Wellness</a></li>                
+              <li><a class="dropdown-item" href="../pages/agri-tourism.html">Agri Tourism</a></li>                
+            </ul>
+          </li>
+         
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  
+  <!-- end header -->
+  <!--end header -->
+  <!-- main slider -->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <img class="d-block w-100 carousel-img" src="assets/img/img-1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h5  >GHANCHE is a true haven of relaxation and rejuvenation, beckoning tired travelers from across the globe.</h5>
+          <button class="btn btn-success mt-3 ">READ MORE ...</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 carousel-img" src="assets/img/img-3.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h5  >GHANCHE is a true haven of relaxation and rejuvenation, beckoning tired travelers from across the globe.</h5>
+          <button class="btn btn-success mt-3 ">READ MORE ...</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 carousel-img" src="assets/img/img-2.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h5  >GHANCHE is a true haven of relaxation and rejuvenation, beckoning tired travelers from across the globe.</h5>
+          <button class="btn btn-success mt-3 ">READ MORE ...</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- end main slider -->
+
+  <!-- after main slider content start -->
+  <div class="container pt-5 pb-5">
+    <section class="mb-5">
+      <div class="row">
+        <div class="col">
+          <h3>ESCAPE THE ORDINARY</h3>
+          <p class="h6">Read handpicked articles to get you inspired by GHANCHE</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+              <h5 class="h5">PLANNING A TRIP TO GHANCHE</h5>
+              <p>How many days are enough for a trip around GHANCHE? Depending on how many days you're planning, what
+                travel type you are, whom you are traveling with as well as the season you are traveling in, you might
+                need some ideas.</p>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col">
+              <button class="btn btn-outline-success">MORE ARTICLES... <i
+                  class=" fa fa-solid fa-arrow-right"></i></button>
+            </div>
           </div>
         </div>
-      </nav>
-    <!-- end header -->
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-6 my-2">
+              <div class="card">
+                <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text "><strong>SOMEBODY FEED PHIL FOODTRAIL IN GHANCHE</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 my-2">
+              <div class="card">
+                <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>SWIMMING POOL CULTURE IN GHANCHE</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 my-2">
+              <div class="card">
+                <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>SOMEBODY FEED PHIL FOODTRAIL IN GHANCHE</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 my-2">
+              <div class="card">
+                <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>SWIMMING POOL CULTURE IN GHANCHE</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col">
+              <button class="btn btn-outline-success">READ ALL ARTICLES... <i
+                  class=" fa fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- multi article start -->
+    <section>
+      <div class="row">
+        <div class="col-6">
+          <h3 class="">TOP ACCOMMODATIONS</h3>
+        </div>
+        <div class="col-6 text-right">
+          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="assets/js/bootstrap.bundle.min.js" ></script>
-    <script src="assets/js/bootstrap.min.js" ></script>
-    <script src="assets/js/popper.min.js" ></script>
+        <div class="col-12">
+          <hr>
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- multi article ends -->
+
+    <!-- section after multi item cards  -->
+    <section class="my-5">
+
+      <div class="row mb-5">
+        <div class="col-md-6 card-flex-verticle">
+          <h3 class="h3">GLACIERS IN GHANCHE</h3>
+          <p>GHANCHE is home to some of the most accessible glaciers How many days are enough for a trip around GHANCHE?
+            Depending on how many days you're planning, what travel type you are,GHANCHE is home to some of the most
+            accessible glaciers How many days are enough for a trip around GHANCHE? Depending on how many days you're
+            planning, what travel type you are, whom you are traveling with as well as the season you are traveling in,
+            you might need some ideas whom you are traveling with as well as the season you are traveling in, you might
+            need some ideas....</p>
+          <div class="row my-4">
+            <div class="col">
+              <button class="btn bg-dark text-light">EXPLORE GLACIERS </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="assets/img/img-2.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="row ">
+
+        <div class="col-md-6">
+          <div class="card">
+            <img src="assets/img/img-3.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-md-6 card-flex-verticle">
+          <h4 class="h3">VOLCANIC ACTIVITY ON THE GHANCHE</h4>
+          <p>How many days are enough for a trip around GHANCHE? Depending on how many days you're planning, what travel
+            type you are, whom you are traveling with as well as the season you are GHANCHE is home to some of the most
+            accessible glaciers How many days are enough for a trip around GHANCHE? Depending on how many days you're
+            planning, what travel type you are, whom you are traveling with as well as the season you are traveling in,
+            you might need some ideas traveling in, you might need some ideas....</p>
+          <div class="row my-4">
+            <div class="col">
+              <button class="btn bg-dark text-light">FIND OUT ALL ABOUT IT <i
+                  class=" fa fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- multi article 2 start -->
+    <section>
+      <div class="row">
+        <div class="col-6">
+          <h4 class="">LOOKING FOR THINGS TO DO?</h4>
+        </div>
+        <div class="col-6 text-right">
+          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="col-12">
+          <hr>
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-3.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">MÝVATN NATURE BATHS</h6>
+                        <p class="card-text"><small>Enjoy a relaxing visit to Myvatn Nature Bath. Located in
+                            the...</small></p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card">
+                      <img  alt="100%x280" src="assets/img/img-2.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">THE BLUE LAGOON</h6>
+                        <p class="card-text"><small>The Blue Lagoon is a health and geothermal spa on the
+                            GHANC...</small></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- multi article 2 ends -->
+
+
+    <section>
+      <div class="container">
+        <div class="card py-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-8" style=" display: flex;flex-direction: column;justify-content: space-evenly;">
+                <h3 class="card-title">EXPLORE THE WONDERS OF THE GHANCHE</h3>
+                <p class="card-text">Join us on a journey to the depths of the ocean, where wonders beyond imagination lie waiting to be discovered. Our expert guides will lead you through a stunning visual experience, exploring the mysteries of underwater life..</p>
+                <form action="#0" class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2 w-50" type="email" placeholder="Enter your email here" aria-label="Search">
+                  <button class="btn bg-dark text-light my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                </form>
+              </div>
+              <div class="col-4">
+                <img  alt="100%x280" src="assets/img/newsletter-bg.svg" style="height: 250px;">
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+
+  </div>
+<!-- end container -->
+
+<!-- footer start -->
+<section class="">
+  <!-- Footer -->
+  <footer class="bg-body-tertiary bg-dark text-light text-left pt-4 ">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-4 mb-4 ">
+          <h5 class="text-uppercase">VISIT GHANCHE</h5>
+
+          <p class="text-muted">
+            © Copyrights 2024 Ghanche Gov.
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 mb-4">
+          <h6 class="text-uppercase">VISIT GHANCHE</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Things to do</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Flights to Ghanche</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Accommodations</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Safe travel in Ghanche</a>
+            </li>
+          </ul>
+        </div>
+         <div class="col-md-3 mb-4">
+          <h6 class="text-uppercase">RELEVANT WEBSITES</h6>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Travel Trade</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Media & Press</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Road Conditions</a>
+            </li>
+            <li>
+              <a href="#!" class="text-light"><i class="fa fa-arrow-right"></i> Ghanche Tourist Board</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h6 class="text-uppercase">Follow us : </h6>
+          <ul class="list-unstyled mb-0">
+
+            <a href="#!" class="text-light mx-2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#!" class="text-light mx-2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#!" class="text-light mx-2"><i class="fa-brands fa-twitter"></i></a>
+            
+          </ul>
+        </div>
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-muted p-3" style="background-color: rgba(0, 0, 0, 0.09);" >
+      © 2024 Ghanche Gov.
+      <a class="text-light text-bold" href="#0"> Developed by Digital College Khaplu</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+<!-- footer end -->
+
+
+  <!-- JavaScript dependencies -->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/font-awesome-all.min.js"></script>
+</body>
+
 </html>
